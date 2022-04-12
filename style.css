@@ -114,6 +114,7 @@ a {
   text-transform: uppercase;
   color: #222222;
   display: block;
+  z-index: 1;
   margin-top: 16px;
   transition: 0.4s;
 }
@@ -131,6 +132,7 @@ a {
 .menu {
   list-style-type: none;
   display: flex;
+  z-index: 1;
   justify-content: center;
 }
 
@@ -1275,6 +1277,7 @@ button {
   position: relative;
   margin-left: 21px;
   margin-right: 21px;
+  z-index: 1;
 }
 
 .drop__last {
@@ -1307,7 +1310,7 @@ button {
 
 .drop__browse {
   display: flex;
-  z-index: 1;
+  z-index: 3;
   text-align: left;
   left: -1px;
   top: 38px;
@@ -1404,7 +1407,7 @@ button {
   visibility: visible;
   opacity: 1;
   transform: translateY(0) scale(1);
-  z-index: 1;
+  z-index: 10;
 }
 
 .cart_block {
